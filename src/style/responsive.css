@@ -1,0 +1,66 @@
+@media only screen and (max-width: 850px) {
+    .navbar ul li{
+      width: 125px;
+    }
+    .place{
+      width: 50%;
+    }
+    .pageImg .pageImgInfo{
+      width: 75%;
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .navbar ul li{
+      width: 100px;
+    }
+    .navbar{
+      background: white;
+    }
+    .listVisit{
+      justify-content: center;
+      align-items: center;
+    }
+    .place{
+      height: 275px;
+      width: 100%;
+    }
+    .pageImg{
+      height: 350px;
+    }
+    .pageImg .pageImgInfo{
+      width: 100%;
+      height: 100%;
+    }
+    .pageImgInfo p{
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .navbar{
+      background: white;
+      justify-content: space-between;
+    }
+    .navbar .logo{
+      margin-left: 25px;
+    }
+    .navbar ul{
+      display: none;
+    }
+    .navbar ul li{
+      background: white;
+    }
+    .navbar .menu{
+      display: block;
+      margin-right: 25px;
+    }
+    .place{
+      width: 100%;
+      height: 225px;
+    }
+    .pageImgInfo button{
+      width: 200px;
+      padding: 5px 15px;
+    }
+  }

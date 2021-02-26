@@ -1,0 +1,97 @@
+.booksContainer{
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.showBook{
+    margin: 25px auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+}
+
+.bookContainer{
+    width: 50%;
+    height: 225px;
+    padding: 10px;
+}
+
+.book{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.book .img{
+    width: 150px;
+    overflow: hidden;
+}
+
+.book .img img{
+    width: 100%;
+    height: 100%;
+    transition: transform .3s ease;
+}
+
+.book:hover .img img{
+    transform: scale(1.3) rotateZ(5deg);
+}
+
+.book .bookInfo{
+    width: 70%;
+    padding: 8px;
+    overflow-y: auto;
+}
+
+.bookInfo h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.bookInfo h3{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.bookInfo .date{
+    text-align: center;
+}
+
+.bookInfo p{
+    margin-bottom: 8px;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 650px) {
+    .bookContainer{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .bookContainer{
+        width: 100%;
+    }
+    .bookInfo h2{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .bookContainer{
+        height: 200px;
+    }
+}
+
+
+
+

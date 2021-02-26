@@ -1,0 +1,106 @@
+.home{
+    background: url("../images/home (2).jpg");
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    padding-top: 50px;
+    transition: all .3s linear;
+    position: relative;
+  }
+
+  .home .img{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 50%;
+  }
+  
+.home .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+  
+.home .home-info{
+  padding: 8px;
+  height: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bolder; 
+}
+  
+  .home .home-info h1{
+    font-size: 6rem;
+    margin-bottom: 15px;
+  }
+  
+  .home .home-info p{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .home .home-info button{
+    width: 175px;
+    padding: 10px;
+    background: orangered;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 35px;
+    transition: all .2s linear;
+    outline: none;
+    border: none;
+  }
+  .home .home-info button:hover{
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  @media only screen and (max-width: 850px) {
+    .home .img{
+      height: 325px;
+      width: 325px;
+    }
+    .home .home-info h1{
+      font-size: 4rem;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .home .img{
+      height: 275px;
+      width: 275px;
+    }
+    .home .home-info h1{
+      font-size: 4rem;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .home{
+      flex-direction: column;
+      height: auto;
+      padding-top: 75px;
+    }
+    .home .img{
+      height: 250px;
+      width: 250px;
+    }
+    .home .home-info h1{
+      font-size: 4rem;
+    }
+  }

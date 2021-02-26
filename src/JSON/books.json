@@ -1,0 +1,20 @@
+{
+    "books" : [
+        {
+            "id" : "1",
+            "img" : "https://i.dr.com.tr/cache/600x600-0/originals/0001705120001-1.jpg",
+            "name" : "Bir Otostopçunun Galaksi Rehberi I",
+            "writer" : "Douglas Adams",
+            "date" : "30/01/2021 - 08/02/2021",
+            "text" : " “Ben var olduğumu kanıtlamayı reddediyorum” der Tanrı, “Çünkü kanıt inancı yadsır ve inanç olmadan ben bir hiçim.”"
+        },
+        {
+            "id" : "2",
+            "img" : "https://cdn.1000kitap.com/resimler/kitaplar/236327_02b36_1534268161.jpg",
+            "name" : "Dune Tanrı İmparatoru",
+            "writer" : "Frank Herbert",
+            "date" : "10/02/2021 - 23/02/2021",
+            "text" : "\"Duncan, bir şeyi bildiğini düşünmenin öğrenmenin önündeki en büyük engel olduğunu söylememiş miydim?\""
+        }
+    ]
+}

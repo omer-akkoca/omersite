@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+.goPlace{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeContainer{
+    position: relative;
+    width: 100vw;
+    min-height: 100%;
+    max-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listVisit{
+    margin: 50px auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.place{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    padding: 10px;
+    transition: all .3s ease;
+}
+
+.place .placeContent{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: all .3s linear;
+}
+
+.placeContent img{
+    width: 100%;
+    height: 100%;
+}
+
+.placeContent .placeInfo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: all .3s ease;
+    text-align: center;
+    padding: 25px;
+    font-weight: bolder;
+    overflow-y: auto;
+}
+
+.place:hover .placeInfo{
+    bottom: 0;
+}
+
+.placeInfo h2{
+    margin-bottom: 8px;
+}
+
+.placeInfo div{
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 750px) { 
+    .place{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 650px) { 
+    .place{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 550px) { 
+    .listVisit{
+        padding: 5px;
+    }
+    .place{
+        width: 275px;
+        height: 275px;
+    }
+}

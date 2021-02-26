@@ -1,0 +1,220 @@
+.about{
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #ededed;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.top{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(68, 176, 215,0.3);
+}
+
+.img{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.img img{
+    width: 250px;
+    height: 250px;
+}
+
+.story{
+    width: 65%;
+    padding: 25px;
+    font-size: 15px;
+    text-indent:25px; 
+    font-weight: bolder;
+}
+
+.title{
+    margin: 15px auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(54, 54, 110);
+}
+
+.education{
+    position: relative;
+    background: #ff8c0060;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 8px;
+}
+
+.education::after{
+    position: absolute;
+    content: "Bilgiler için kutucuklara tıklayın.";
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.education-item{
+    position: relative;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.education-item p{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.education-item i{
+    font-size: 1.5rem;
+}
+
+.dropdown-info{
+    padding: 8px;
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    background: white;
+    font-weight: bold;
+    z-index: 98;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.education-item:hover .dropdown-info{
+    display: block;
+    box-shadow: 0 5px 8px rgba(0, 0, 0,0.3);
+    border-color: black;
+}
+
+.language{
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+.iconContainer{
+    height: auto;
+    width: 16.6666%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.iconContainer img{
+    width: 64px;
+    height: 64px;
+}
+
+.iDid{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.iDid p{
+    margin: 10px;
+}
+
+.iDid i{
+    font-size: 4rem;
+    cursor: pointer;
+    color: black;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .iconContainer{
+        height: auto;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .img img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .top{
+        background: rgba(0, 0, 0,0.5);  
+    }
+    .iconContainer{
+        height: auto;
+        width: 25%;
+    }
+    .iconContainer img{
+        width: 52px;
+        height: 52px;
+    }
+    .top{
+        flex-direction: column;
+    }
+    .img{
+        width: 100%;
+    }
+    .story{
+        width: 100%;
+    }
+    .education{
+        flex-direction: column;
+    }
+    .education::after{
+        display: block;
+    }
+    .education-item{
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .iconContainer{
+        height: auto;
+        width: 33.333%;
+    }
+    .iconContainer img{
+        width: 40px;
+        height: 40px;
+    }
+}
