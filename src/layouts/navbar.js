@@ -5,22 +5,22 @@ class navbar extends Component {
     render() {
         return (
                 <div className="navbar">
-                    <Link to="/omer-akkoca.githup.io"><h2 className="logo">OA</h2></Link>
+                    <Link to="/omer-akkoca"><h2 className="logo">OA</h2></Link>
                     <ul className="responsiveMenu">
-                        <Link to="/omer-akkoca.githup.io">
+                        <Link to="/omer-akkoca">
                             <li>Anasayfa</li>
                         </Link>
-                        <Link to="/about">
+                        <Link to="/omer-akkoca/about">
                             <li>Hakkımda</li>
                         </Link>
                             <li className="dropDown">
                                 <p>İlgi Alanları</p>                      
                                 <ul className="dropDownMenu">
-                                    <Link to="/places-Visited"><li>Ziyaret Edilen Yerler</li></Link>
-                                    <Link to="/books-Read"><li className="booksread">Okunan Kitaplar</li></Link>
+                                    <Link to="/omer-akkoca/places-Visited"><li>Ziyaret Edilen Yerler</li></Link>
+                                    <Link to="/omer-akkoca/books-Read"><li className="booksread">Okunan Kitaplar</li></Link>
                                 </ul>
                             </li>
-                        <Link to="/contact">                
+                        <Link to="/omer-akkoca/contact">                
                             <li>İletişim</li>
                         </Link>
                     </ul>

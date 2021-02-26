@@ -11,11 +11,11 @@ class page extends Component {
     render() {
         return (
                     <Switch>
-                        <Route exact path="/omer-akkoca.githup.io" component={Home}/>
-                        <Route exact path="/about" component={About}/>
-                        <Route exact path="/places-Visited" component={PlaceVisited}/>
-                        <Route exact path="/books-Read" component={BookRead}/>
-                        <Route exact path="/contact" component={Contact}/>
+                        <Route exact path="/omer-akkoca" component={Home}/>
+                        <Route exact path="/omer-akkoca/about" component={About}/>
+                        <Route exact path="/omer-akkoca/places-Visited" component={PlaceVisited}/>
+                        <Route exact path="/omer-akkoca/books-Read" component={BookRead}/>
+                        <Route exact path="/omer-akkoca/contact" component={Contact}/>
                     </Switch>
 
         )
