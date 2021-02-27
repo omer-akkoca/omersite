@@ -12,7 +12,7 @@ class contact extends Component {
                 <PageImg values={{
                     img : img,
                     text : "Buraya kadar neler yaptığımı nasıl biri olduğumu biraz olsun anlamışsınızdır."+
-                    "Şimdi eğer kafanızda herhangi bir proje var ise lütfen iletişim kurunuz.",
+                    "Şimdi eğer kafanızda herhangi bir proje var ise lütfen iletişim kurmayı unutmayınız.",
                     name : "goContact",
                     buttonName : "İletişim Bilgileri İçin Tıklayınız"
                 }}/>
@@ -36,21 +36,27 @@ class contact extends Component {
                             />
                         </div>
                         <div className="socialContainer">
-                            <Item 
-                                key="4" 
-                                icon="fab fa-facebook"
-                                text ="/omer.akkoca.52"
-                            />
-                            <Item 
-                                key="5" 
-                                icon="fab fa-twitter"
-                                text ="/omerakkoca1"
-                            />
-                            <Item 
-                                key="6" 
-                                icon="fab fa-instagram"
-                                text ="/omer_akkoca"
-                            />
+                            <a target="_blank" href="https://www.facebook.com/omer.akkoca.52/">
+                                <Item 
+                                    key="4" 
+                                    icon="fab fa-facebook"
+                                    text ="/omer.akkoca.52"
+                                />
+                            </a>
+                            <a target="_blank" href="https://twitter.com/omerakkoca1">
+                                <Item 
+                                    key="5" 
+                                    icon="fab fa-twitter"
+                                    text ="/omerakkoca1"
+                                />
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/omer_akkoca/">
+                                <Item 
+                                    key="6" 
+                                    icon="fab fa-instagram"
+                                    text ="/omer_akkoca"
+                                />
+                            </a>
                         </div>
                     </div>
                 </a>

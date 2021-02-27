@@ -18,7 +18,7 @@ class about extends Component {
                 <PageImg values={{
                     img : img,
                     text : "Web sayfama hoşgeldin. Eminim ben kimim merak "+
-                    "ediyorsundurki bu sayfaya girdin :D . O zaman seni daha fazla bekletmiyorum. "+
+                    "ediyorsunki bu sayfaya girdin :D. O zaman seni daha fazla bekletmiyorum. "+
                     "Hadi alttaki butona tıkla.",
                     name : "goInfo",
                     buttonName : "Bilgiler İçin Tıklayınız"
