@@ -1,7 +1,7 @@
 {
   "name": "omerakkoca",
   "version": "0.1.0",
-  "homepage": "https://omer-akkoca.githup.io/omer-akkoca",
+  "homepage": "https://omer-akkoca.github.io/omersite",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
