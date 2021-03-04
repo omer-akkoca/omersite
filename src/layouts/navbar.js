@@ -5,22 +5,22 @@ class navbar extends Component {
     render() {
         return (
                 <div className="navbar">
-                    <Link to="/omersite"><h2 className="logo">OA</h2></Link>
+                    <Link to="/"><h2 className="logo">OA</h2></Link>
                     <ul className="responsiveMenu">
-                        <Link to="/omersite">
+                        <Link to="/">
                             <li>Anasayfa</li>
                         </Link>
-                        <Link to="/omersite/about">
+                        <Link to="/about">
                             <li>Hakkımda</li>
                         </Link>
                             <li className="dropDown">
                                 <p>İlgi Alanları</p>                      
                                 <ul className="dropDownMenu">
-                                    <Link to="/omersite/places-Visited"><li>Ziyaret Edilen Yerler</li></Link>
-                                    <Link to="/omersite/books-Read"><li className="booksread">Okunan Kitaplar</li></Link>
+                                    <Link to="/places-Visited"><li>Ziyaret Edilen Yerler</li></Link>
+                                    <Link to="/books-Read"><li className="booksread">Okunan Kitaplar</li></Link>
                                 </ul>
                             </li>
-                        <Link to="/omersite/contact">                
+                        <Link to="/contact">                
                             <li>İletişim</li>
                         </Link>
                     </ul>

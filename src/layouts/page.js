@@ -11,11 +11,11 @@ class page extends Component {
     render() {
         return (
                     <Switch>
-                        <Route exact path="/omersite" component={Home}/>
-                        <Route exact path="/omersite/about" component={About}/>
-                        <Route exact path="/omersite/places-Visited" component={PlaceVisited}/>
-                        <Route exact path="/omersite/books-Read" component={BookRead}/>
-                        <Route exact path="/omersite/contact" component={Contact}/>
+                        <Route exact path="/" component={Home}/>
+                        <Route exact path="/about" component={About}/>
+                        <Route exact path="/places-Visited" component={PlaceVisited}/>
+                        <Route exact path="/books-Read" component={BookRead}/>
+                        <Route exact path="/contact" component={Contact}/>
                     </Switch>
 
         )
