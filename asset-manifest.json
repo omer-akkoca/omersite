@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/omersite/static/css/main.c508f857.chunk.css",
-    "main.js": "/omersite/static/js/main.6d8d7561.chunk.js",
-    "main.js.map": "/omersite/static/js/main.6d8d7561.chunk.js.map",
-    "runtime-main.js": "/omersite/static/js/runtime-main.3c2d99d6.js",
-    "runtime-main.js.map": "/omersite/static/js/runtime-main.3c2d99d6.js.map",
-    "static/js/2.36703785.chunk.js": "/omersite/static/js/2.36703785.chunk.js",
-    "static/js/2.36703785.chunk.js.map": "/omersite/static/js/2.36703785.chunk.js.map",
-    "index.html": "/omersite/index.html",
-    "static/css/main.c508f857.chunk.css.map": "/omersite/static/css/main.c508f857.chunk.css.map",
-    "static/js/2.36703785.chunk.js.LICENSE.txt": "/omersite/static/js/2.36703785.chunk.js.LICENSE.txt",
-    "static/media/about2.1b38f5df.jpg": "/omersite/static/media/about2.1b38f5df.jpg",
-    "static/media/avatar.12b4eeee.jpeg": "/omersite/static/media/avatar.12b4eeee.jpeg",
-    "static/media/avatar2.ef57a20f.jpg": "/omersite/static/media/avatar2.ef57a20f.jpg",
-    "static/media/book.9e4f06bc.jpg": "/omersite/static/media/book.9e4f06bc.jpg",
-    "static/media/contact2.e9420a1a.jpg": "/omersite/static/media/contact2.e9420a1a.jpg",
-    "static/media/home.css": "/omersite/static/media/home (2).23e06f01.jpg",
-    "static/media/place2.fe120133.jpg": "/omersite/static/media/place2.fe120133.jpg"
+    "main.css": "/static/css/main.ca5ca2e8.chunk.css",
+    "main.js": "/static/js/main.6d8d7561.chunk.js",
+    "main.js.map": "/static/js/main.6d8d7561.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.59fe48b8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.59fe48b8.js.map",
+    "static/js/2.36703785.chunk.js": "/static/js/2.36703785.chunk.js",
+    "static/js/2.36703785.chunk.js.map": "/static/js/2.36703785.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ca5ca2e8.chunk.css.map": "/static/css/main.ca5ca2e8.chunk.css.map",
+    "static/js/2.36703785.chunk.js.LICENSE.txt": "/static/js/2.36703785.chunk.js.LICENSE.txt",
+    "static/media/about2.1b38f5df.jpg": "/static/media/about2.1b38f5df.jpg",
+    "static/media/avatar.12b4eeee.jpeg": "/static/media/avatar.12b4eeee.jpeg",
+    "static/media/avatar2.ef57a20f.jpg": "/static/media/avatar2.ef57a20f.jpg",
+    "static/media/book.9e4f06bc.jpg": "/static/media/book.9e4f06bc.jpg",
+    "static/media/contact2.e9420a1a.jpg": "/static/media/contact2.e9420a1a.jpg",
+    "static/media/home.css": "/static/media/home (2).23e06f01.jpg",
+    "static/media/place2.fe120133.jpg": "/static/media/place2.fe120133.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c2d99d6.js",
+    "static/js/runtime-main.59fe48b8.js",
     "static/js/2.36703785.chunk.js",
-    "static/css/main.c508f857.chunk.css",
+    "static/css/main.ca5ca2e8.chunk.css",
     "static/js/main.6d8d7561.chunk.js"
   ]
 }
