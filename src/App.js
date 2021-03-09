@@ -1,15 +1,15 @@
 import "./style/responsive.css"
 import Navbar from './layouts/navbar'
 import Pages from './layouts/page';
-import {BrowserRouter as Router } from "react-router-dom";
-
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
+
   return (
-      <Router>
+      <BrowserRouter>
         <Navbar/> 
         <Pages/>
-      </Router>
+      </BrowserRouter>
   );
 }
 

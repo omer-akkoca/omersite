@@ -42,10 +42,6 @@
     transition: transform .3s ease;
 }
 
-.book:hover .img img{
-    transform: scale(1.3) rotateZ(5deg);
-}
-
 .book .bookInfo{
     width: 70%;
     padding: 8px;
@@ -83,6 +79,9 @@
     }
     .bookInfo h2{
         font-size: 15px;
+    }
+    .bookInfo p{
+        text-align: center;
     }
 }
 

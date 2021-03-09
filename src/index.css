@@ -106,7 +106,6 @@ body {
 }
 
 .navbar ul .dropDown .dropDownMenu{
-  background: white;
   position: absolute;
   left: 0;
   top: 100%;
@@ -127,7 +126,7 @@ body {
  width: 100.5%;
 }
 
-.navbar ul.active{
+.navbar .responsiveMenu.active{
   position: absolute;
   display: block;
   width: 100%;
@@ -136,7 +135,33 @@ body {
   top: 100%;
 }
 
-.navbar ul.active li{
+.navbar .responsiveMenu.active li.dropDown p{
+  display: none;
+}
+
+.navbar .responsiveMenu.active li.dropDown:hover::after{
+  width: 0;
+}
+
+.navbar .responsiveMenu.active li.dropDown{
+  padding: 0;
+}
+
+.navbar .responsiveMenu.active li.dropDown .dropDownMenu{
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 200%;
+  top: 0;
+  display: block;
+}
+
+.navbar .responsiveMenu.active li.dropDown .dropDownMenu li{
+  height: 50%;
+  width: 100%;
+}
+
+.navbar .responsiveMenu.active li{
   display: block;
   text-align: left;
   width: 100%;
@@ -158,6 +183,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-blend-mode: exclusion;
 }
 
 .pageImg .pageImgInfo{

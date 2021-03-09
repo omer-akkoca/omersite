@@ -16,7 +16,6 @@ class contact extends Component {
                     name : "goContact",
                     buttonName : "İletişim Bilgileri İçin Tıklayınız"
                 }}/>
-                <a name="goContact">
                     <div className="contactInfo">
                         <div className="adresContainer">
                             <Item 
@@ -59,7 +58,6 @@ class contact extends Component {
                             </a>
                         </div>
                     </div>
-                </a>
                 <BotBar/>
             </div>
         )

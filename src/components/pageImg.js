@@ -12,13 +12,17 @@ function pageImg(props) {
         backgroundRepeat : "no-repeat"
     }
 
+    const goPlace = () =>{
+        const parentImg = document.querySelector(".pageImg");
+        const parentImgHeight = parentImg.scrollHeight;
+        window.scrollTo(0, parentImgHeight-25);
+    }
+
     return (
         <div style={background} className="pageImg">
             <div className="pageImgInfo">
                 <p>{text}</p>
-                <a href={`#${name}`}>
-                    <button className={name}>{buttonName}</button>
-                </a>
+                    <button onClick={goPlace} className={name}>{buttonName}</button>
             </div>
         </div>
     )

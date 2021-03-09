@@ -19,13 +19,11 @@ class placeVisited extends Component {
                     buttonName : "Ziyaret Edilen Yerler İçin Tıklayınız"
 
                 }}/>
-                <a className="goPlace" name="goPlace">
                     <div className="listVisit">
                         {
                             places.map(place => <Place key={place.id} value={place}/>)
                         }
                     </div>
-                </a>
                 <BotBar/>
             </div>
         )

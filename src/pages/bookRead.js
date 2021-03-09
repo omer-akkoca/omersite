@@ -17,9 +17,8 @@ class bookRead extends Component {
                     'müddetçe, bu ülke hiç bir zaman medeni bir ülke olamayacaktır" der '+
                     'Elbert Hubberd.',
                     name : "goBook",
-                    buttonName : "Okunmuş Kitaplar İçin Tıklayınız"
+                    buttonName : "Okunan Kitaplar İçin Tıklayınız"
                 }}/>
-                <a name="goBook"/>
                 <div className="showBook">
                     {
                         books.map(book => <Book key={book.id} values={{...book}}/>)

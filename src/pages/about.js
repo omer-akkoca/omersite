@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import avatar from "../images/avatar2.jpg"
+import avatar from "../images/avatar.jpeg"
 import "../style/about.css"
 import PageImg from "../components/pageImg"
 import img from "../images/about2.jpg"
@@ -23,17 +23,16 @@ class about extends Component {
                     name : "goInfo",
                     buttonName : "Bilgiler İçin Tıklayınız"
                 }}/>
-                <a name="goInfo"/>
                 <div className="top">
                     <div className="img">
                         <img src={avatar}/>
                         </div>
                     <div className="story">
                        Merhaba ben Ömer Akkoca. 2000 yılında Nisan ayının 17. gününde dünyaya geldim. Şuan {age} yaşındayım. 
-                       {age} yıllık yaşamımda eğitim hayatımı aşağıda göreceksiniz. Senin için önemli 
+                        {age} yıllık yaşamımda eğitim hayatımı aşağıda göreceksiniz. Senin için önemli 
                        olan nokta benim ne yaptığım. Evet ben bir yazılım mühendisiyim. Üniversiteye 
                        başladığımdan beri ve lise hayatımda hep web üzerine ilerlemek istemiştim. Şuanda da bu
-                       kişisel sitem ile karşınızdayım.
+                       kişisel sitem ile de karşınızdayım.
                     </div>
                 </div>
                 <div className="title">Eğitim Bilgileri</div>
@@ -70,8 +69,8 @@ class about extends Component {
                 <div className="title">Neler Yaptım?</div>
                 <div className="iDid">
                     <p>Projelerimi GitHup sayfamdan görebilirsiniz.</p>
-                    <p>Projeler için tıklayınız...</p>
                     <a target="_blank" href="https://github.com/omer-akkoca">
+                        <p>Projeler için tıklayınız...</p>
                         <i className="fab fa-github"/>
                     </a>
                 </div>

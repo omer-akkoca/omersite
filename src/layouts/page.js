@@ -12,10 +12,10 @@ class page extends Component {
         return (
                     <Switch>
                         <Route exact path="/" component={Home}/>
-                        <Route exact path="/about" component={About}/>
-                        <Route exact path="/places-Visited" component={PlaceVisited}/>
-                        <Route exact path="/books-Read" component={BookRead}/>
-                        <Route exact path="/contact" component={Contact}/>
+                        <Route exact path="/About" component={About}/>
+                        <Route exact path="/Places" component={PlaceVisited}/>
+                        <Route exact path="/Books" component={BookRead}/>
+                        <Route exact path="/Contact" component={Contact}/>
                     </Switch>
 
         )
