@@ -18,7 +18,7 @@ menus.forEach(e =>{
 const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll" , () =>{
-    if(window.scrollY > 80){
+    if(window.scrollY > 60){
         navbar.classList.add("active");
     }else{
         navbar.classList.remove("active");
@@ -27,7 +27,7 @@ window.addEventListener("scroll" , () =>{
 
 
 // menuye tıkladıgımda scroolun sıfırlanması
-const li_es = document.querySelectorAll(".navbar ul li");
+const li_es = document.querySelectorAll(".option");
 
 li_es.forEach(li =>{
     li.addEventListener("click" , () =>{
