@@ -55,7 +55,7 @@ class about extends Component {
                         </div>
                    </div>
                    <div className="education-item">
-                       <p>Primary School</p>
+                       <p>Üniversite</p>
                        <i className="fas fa-university"/>
                        <div className="dropdown-info">
                             2018 - 2021 <br/>Karadeniz Teknik Üniversitesi <br/>
