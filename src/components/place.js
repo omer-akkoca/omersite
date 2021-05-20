@@ -11,7 +11,7 @@ class place extends Component {
         return (
             <div className="place">
                 <div className="placeContent">
-                    <img src={img}></img>
+                    <img src={img} alt="seyehat forografi"></img>
                     <div className="placeInfo">
                         <h2>{location}</h2>
                         <div>{date}</div>
